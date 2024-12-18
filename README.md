@@ -3,35 +3,18 @@
 ## Dataset Description
 This dataset contains 200 rows and 6 columns. It is used to predict the type of drug prescribed to a patient based on various health-related features. Source: Kaggle
 
-Columns:
-
 Age: The age of the patient (numeric).
 
-Sex: The gender of the patient. This is a categorical variable with two possible values:
+Sex: The gender of the patient. This is a categorical variable with two possible values: F (Female), M (Male)
 
-F (Female)
-M (Male)
+BP (Blood Pressure): The blood pressure level of the patient, which is a categorical variable with three possible levels: HIGH, LOW, NORMAL
 
-BP (Blood Pressure): The blood pressure level of the patient, which is a categorical variable with three possible levels:
-
-HIGH
-LOW
-NORMAL
-
-Cholesterol: The cholesterol level of the patient, a categorical variable with two possible values:
-
-HIGH
-NORMAL
+Cholesterol: The cholesterol level of the patient, a categorical variable with two possible values: HIGH, NORMAL
 
 Na_to_K (Sodium-to-Potassium Ratio): A numeric value representing the ratio of sodium to potassium levels in the patient's blood.
 
-Drug: The target variable, indicating the type of drug prescribed to the patient. This is a categorical variable with the following classes:
-
-drugA
-drugB
-drugC
-drugX
-drugY
+Drug: The target variable, indicating the type of drug prescribed to the patient. This is a categorical variable with the following classes: drugA, drugB, drugC, drugX
+and drugY
 
 ## Summary statistics: 
 Age: The patients' ages range from 15 to 74, with a mean age of 44.32 years.
@@ -54,17 +37,19 @@ Using the health-related variables Age, Sex, BP (Blood Pressure), Cholesterol le
 
 
 ## Summary of Results:
-Decision Tree:
+### Decision Tree:
 
 Accuracy: 1.0000 (perfect on test set)
 Cross-validation accuracy: 0.9938 (slightly lower, indicating minimal overfitting)
 Classification report: Precision, recall, and F1-score all 1.00 for all classes.
-Random Forest:
+
+### Random Forest:
 
 Accuracy: 1.0000
 Cross-validation accuracy: 0.9938 (similar to Decision Tree)
 Classification report: Precision, recall, and F1-score all 1.00 for all classes.
-XGBoost:
+
+### XGBoost:
 
 Accuracy: 0.9750 (slightly lower than Decision Tree and Random Forest)
 Classification report: Precision 1.00 for most classes, but recall for class 2 is 0.80, indicating some misclassification.
