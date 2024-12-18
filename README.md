@@ -1,7 +1,7 @@
-# Drug-prediction-based-health-metrics
+# Drug-Prediction-Based-Health-Metrics
 
 ## Dataset Description
-This dataset contains 200 rows and 6 columns. It is used to predict the type of drug prescribed to a patient based on various health-related features. Source: Kaggle
+This dataset contains 200 rows and 6 columns. It is used to predict the type of drug prescribed to a patient based on various health-related features. Data Source: Kaggle
 
 Age: The age of the patient (numeric).
 
@@ -53,6 +53,8 @@ Classification report: Precision, recall, and F1-score all 1.00 for all classes.
 
 Accuracy: 0.9750 (slightly lower than Decision Tree and Random Forest)
 Classification report: Precision 1.00 for most classes, but recall for class 2 is 0.80, indicating some misclassification.
+
+<img width="755" alt="image" src="https://github.com/user-attachments/assets/8d067ef3-1e90-40c8-acff-797a3570d222" />
 
 While all models show excellent performance on the test set (accuracy near 100%), the slight drop in cross-validation accuracy and minor misclassification (class 2 in XGBoost) suggests overfitting. More data could help improve generalization and reduce overfitting, especially for underrepresented classes.
 
