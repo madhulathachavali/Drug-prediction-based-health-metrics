@@ -1,4 +1,4 @@
-# Drug-Prediction-Based-On-Health-Metrics
+# Predicting Drug Prescription Based on Health Metrics
 
 ## Dataset Description
 This dataset contains 200 rows and 6 columns. It is used to predict the type of drug prescribed to a patient based on various health-related features. Data Source: Kaggle
@@ -16,7 +16,7 @@ Na_to_K (Sodium-to-Potassium Ratio): A numeric value representing the ratio of s
 Drug: The target variable, indicating the type of drug prescribed to the patient. This is a categorical variable with the following classes: drugA, drugB, drugC, drugX
 and drugY
 
-## Summary statistics: 
+## Summary Statistics: 
 Age: The patients' ages range from 15 to 74, with a mean age of 44.32 years.
 
 Na_to_K: The sodium-to-potassium ratio varies between 6.27 and 38.25, with a mean of 16.08.
