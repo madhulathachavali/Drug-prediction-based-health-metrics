@@ -1,4 +1,4 @@
-# Drug-Prediction-Based-Health-Metrics
+# Drug-Prediction-Based-On-Health-Metrics
 
 ## Dataset Description
 This dataset contains 200 rows and 6 columns. It is used to predict the type of drug prescribed to a patient based on various health-related features. Data Source: Kaggle
